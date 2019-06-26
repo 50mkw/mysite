@@ -1,0 +1,9 @@
+{% extends "recml/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site recml') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'recml:index' %}">{{ site_header|default:_('Django Reconciliation') }}</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
