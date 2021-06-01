@@ -87,7 +87,7 @@ tensorflow-estimator==1.13.0rc0
 termcolor==1.1.0
 toolz==0.9.0
 tqdm==4.31.1
-urllib3==1.25.3
+urllib3==1.26.5
 websockets==7.0
 Werkzeug==0.14.1
 wxPython==4.0.4
